@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.eti.kinoshita</groupId>
+  <artifactId>jfuzzylogic-sandbox</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>jFuzzyLogic SandBox</name>
+  <description>jFuzzyLogic SandBox</description>
+  
+  <dependencies>
+    <dependency>
+        <groupId>net.sf.jfuzzylogic</groupId>
+        <artifactId>jfuzzylogic</artifactId>
+        <scope>system</scope>
+        <version>2.1</version>
+        <systemPath>${project.basedir}/lib/jFuzzyLogic_v2.1.jar</systemPath>
+    </dependency>
+  </dependencies>
+</project>
